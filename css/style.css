@@ -83,3 +83,11 @@ header nav .branding {
 .hero .right p span {
     color: var(--primary)
 }
+
+section {
+    padding: 6rem 0;
+}
+
+section.about .about-me-img {
+    height: 450px
+}
