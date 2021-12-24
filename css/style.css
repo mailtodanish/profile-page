@@ -1,4 +1,5 @@
 @import 'utilities.css';
+@import 'media.css';
 :root {
     --primary: #3dcfd3;
     --dark: black;
