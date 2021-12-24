@@ -37,6 +37,11 @@ header nav .left a {
     transition: all .3s ease;
 }
 
+header nav .right a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
 header nav .left a:hover {
     color: var(--primary);
 }
