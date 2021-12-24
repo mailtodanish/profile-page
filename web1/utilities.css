@@ -31,3 +31,9 @@
     color: var(--primary);
     transition: all .3s ease;
 }
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
