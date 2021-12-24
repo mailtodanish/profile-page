@@ -37,3 +37,17 @@
     border-color: var(--primary);
     color: var(--primary);
 }
+
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+    transition: all .3s ease;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.justify-center {
+    justify-content: center;
+}

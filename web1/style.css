@@ -20,6 +20,7 @@ body {
 
 header {
     background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
 .container {
@@ -53,7 +54,8 @@ header nav .branding {
 }
 
 .hero .right {
-    color: var(--pure)
+    color: var(--pure);
+    margin-bottom: 3rem;
 }
 
 .hero .right h6 {
