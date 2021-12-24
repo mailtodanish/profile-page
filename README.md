@@ -1,3 +1,3 @@
-## Sample Web Design
+## My Profile
 
- Collections
+https://mailtodanish.github.io/profile-page/
