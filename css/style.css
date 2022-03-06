@@ -55,7 +55,7 @@ header nav .left a:after {
     bottom: -30px;
     width: 0%;
     height: 2px;
-    background-color: var(--pure);
+    background-color: var(--primary);
     transition: width .3s ease-in-out;
 }
 
