@@ -32,6 +32,7 @@ header {
 
 header nav .left a {
     color: white;
+    position: relative;
     text-decoration: none;
     margin-right: 2rem;
     text-transform: uppercase;
@@ -45,6 +46,25 @@ header nav .right a {
 
 header nav .left a:hover {
     color: var(--primary);
+}
+
+header nav .left a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    width: 0%;
+    height: 2px;
+    background-color: var(--pure);
+    transition: width .3s ease-in-out;
+}
+
+header nav .left a:hover:after {
+    width: 70%;
+}
+
+header nav .left a.active:after {
+    width: 70%;
 }
 
 header nav {
