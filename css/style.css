@@ -60,11 +60,11 @@ header nav .left a:after {
 }
 
 header nav .left a:hover:after {
-    width: 70%;
+    width: 100%;
 }
 
 header nav .left a.active:after {
-    width: 70%;
+    width: 100%;
 }
 
 header nav {
