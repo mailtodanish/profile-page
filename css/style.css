@@ -79,7 +79,7 @@ header nav .branding {
 .hero .left img {
     width: 400px;
     transform: rotate(2deg);
-    animation: moveinspace 12s ease-in-out infinite alternate;
+/*     animation: moveinspace 12s ease-in-out infinite alternate; */
 }
 
 @keyframes moveinspace {
