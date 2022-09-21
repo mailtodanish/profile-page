@@ -79,7 +79,7 @@ header nav .branding {
 .hero .left img {
     width: 400px;
     transform: rotate(2deg);
-/*     animation: moveinspace 12s ease-in-out infinite alternate; */
+    /*     animation: moveinspace 12s ease-in-out infinite alternate; */
 }
 
 @keyframes moveinspace {
@@ -320,4 +320,22 @@ section.available p {
 
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
     /* For landscape layouts only */
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    gap: 10px;
+}
+
+.blogs span {
+    font-size: 13px;
+}
+
+.blg-heading {
+    align-items: flex-start;
+    gap: 7px;
+    padding-left: 10px;
 }
